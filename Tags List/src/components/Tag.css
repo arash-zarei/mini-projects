@@ -1,0 +1,39 @@
+.tag{
+    color: #333;
+    margin: 4px 3px;
+    list-style: none;
+    border-radius: 5px;
+    background: #F2F2F2;
+    padding: 5px 8px 5px 10px;
+    border: 1px solid #e3e1e1;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tag p{
+    padding-left: 5px;
+    transition: all 0.3s;
+    position: relative;
+    left: -30px;
+}
+
+.tag svg{
+    width: 20px;
+    height: 20px;
+    color: #ff0000;
+    cursor: pointer;
+    position: relative;
+    left: -30px;
+    transition: all 0.3s;
+}
+
+.tag:hover svg{
+    left: 0;
+}
+
+.tag:hover p{
+    border-left: 1px solid #000;
+    left: 0;
+}
